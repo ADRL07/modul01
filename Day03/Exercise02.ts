@@ -81,3 +81,14 @@ for(let i = 1; i <= inputNumber2; i++) {
 console.log(hasil);
 
 // 4. write a code to find the factorial of a number
+ const angka: number = 5;
+ let Hasil: number = 0;
+
+ for (let i: number = 1; i <= angka; i++) {
+     if (Hasil === 0) {
+         Hasil = i;
+     } else {
+         Hasil = Hasil * i;
+     }
+ }
+ console.log(Hasil);

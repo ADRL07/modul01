@@ -3,7 +3,7 @@
 const randomNumber: number = 7;
 
 for (let i: number = 0; i <= 10; i++) {
-    console.log (`${randomNumber} X ${i} = ${randomNumber * i}`);
+    console.log(`${randomNumber} X ${i} = ${randomNumber * i}`);
 
 }
 

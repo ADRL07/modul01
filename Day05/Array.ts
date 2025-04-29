@@ -6,7 +6,7 @@
  * 
  * - Tujuan : untuk mempermudah pengolaan data.
  * - Penulisan : data array ditandai dengan kurung siku [..., ...]
- * - Example : let numbs:number[] = [1, 2, 3, 4, 5];
+ * - Example : let numbs:number[] = [1, 2, 3, 4];
  */
 
 let headphone: string = 'Headphone';

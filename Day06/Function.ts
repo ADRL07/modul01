@@ -40,3 +40,18 @@ console.log(penjumlahan(15, 2));
 
 // CALLBACK FUNCTION : sebuah function yang dititipkan lewat parameter untuk dijalankan
 //                     didalam function utama pemilik parameter
+
+function renderCalculator(angkaC: number, angkaD: number, callbackFnOperation: any) {
+    const hasil = callbackFnOperation(angkaC, angkaD)
+    console.log(`Hasil Perhitungan : ${hasil}`);
+}
+
+function pengurangan(valueA: number, valueB: number) {
+    return valueA - valueB;
+}
+function perkalian(valueA: number, valueB: number) {
+    return valueA * valueB
+}
+
+renderCalculator(12, 5, pengurangan);
+renderCalculator(12, 5, perkalian);

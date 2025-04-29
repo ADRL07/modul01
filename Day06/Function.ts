@@ -55,3 +55,8 @@ function perkalian(valueA: number, valueB: number) {
 
 renderCalculator(12, 5, pengurangan);
 renderCalculator(12, 5, perkalian);
+renderCalculator(12, 5, function (nilaiA: number, nilaiB: number) {
+    return nilaiA / nilaiB
+})
+
+// array.forEach(), array.map()

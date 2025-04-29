@@ -20,4 +20,23 @@
  *                     b. const namaFunc = (param1?, param2?,...) => {
  *                             - code
  *                          }
+ *  - Function mungkin membutuhkan parameter. Parameter merupakan value dari luar function, 
+ *    yang nantinya mungkin akan dibutuhkan untuk melengkapi proses di dalam function.
+ *  - Function biasanya menghasilkan nilai output melalui return bisa juga tidak.
  */
+
+// Declarative function
+// Membuat function
+function penjumlahan(numA: number, numB: number) {
+    const result: number = numA + numB;
+    return result
+}
+
+penjumlahan; // Memanggil fungsi
+
+// penjumlahan(); // Menjalankan fungsi
+
+console.log(penjumlahan(15, 2));
+
+// CALLBACK FUNCTION : sebuah function yang dititipkan lewat parameter untuk dijalankan
+//                     didalam function utama pemilik parameter

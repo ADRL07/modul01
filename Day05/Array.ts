@@ -56,7 +56,7 @@ console.log(printList);
 console.log(gadgetList.length);
 
 // array.push(newData) : menambahkan data baru pada akhir array
-gadgetList.push('SamartWahtch');
+gadgetList.push('SamartWatch');
 console.log(gadgetList);
 console.log(gadgetList.length);
 
